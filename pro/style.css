@@ -1,0 +1,309 @@
+ @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ * {
+    background-color: #FFFAF6;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 12vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding-left: 100px;
+}
+
+.text1 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding: 2vh 4vw;
+    margin-right: 38%;
+    font-family: 'Protest Revolution', sans-serif;
+}
+.text1:hover {
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+
+button {
+    width: 11vw;
+    height: 6vh; 
+    background: white;
+    padding: 1vh 2vw;
+    border-radius: 30px;
+    font-size: 1.5vw;
+    margin-left: 2%;
+}
+button:hover {
+    background-color: peachpuff;
+    cursor: pointer;
+}
+
+
+/* HERO SECTION */
+
+.sec {
+    height: 200px; 
+    width: 70%; 
+    margin: 70px auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 2% 20%;
+}
+
+.pic1 {
+    background-image: url(images/aayush.webp);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.text2 {
+    flex: 1; 
+}
+
+.text2 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    flex-wrap: wrap;
+    padding-right: 30%;
+}
+
+.text2 button {
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgba(125, 209, 167, 0.733);
+    font-size: 15px;
+    color: #1e4b27;
+    border: 1px solid black;
+    margin-top: 2vh;
+    display: inline-block;
+}
+
+.text2 button:hover {
+    cursor: pointer;
+    background-color: rgba(163, 227, 176, 0.5);
+}
+
+/* BOX SECTION */ 
+
+.box-sec {
+    height: 1150px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.box {
+    height: 500px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.box h2 {
+    padding-top: 7px;
+    padding-bottom: 5%;
+}
+.box p {
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+.box img {
+    height: 178px;
+    width: 278;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.box img:hover {
+    height: 188px;
+    width: 290;
+    cursor: pointer;
+}
+.box .icon {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.box .icon i:hover {
+    font-size: 40px;
+    font-weight: larger;
+    cursor: pointer;
+}
+.box .icon h3 {
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.icon i {
+    font-size: 30px;
+}
+
+.butt4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.butt4 button {
+    width: auto;
+    height: 20px;
+    font-size: 10px;
+    background-color: white;
+    font-weight: 100;
+    padding: 2% 5%;
+    margin-top: 7px;
+}
+
+/* GET IN TOUCH SECTION */
+
+.text3 {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 230px;
+    margin: 10px auto;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding-left: 2%;
+}
+
+.text3 h1 {
+    font-size: 30px;
+}
+
+.text3 p {
+    padding-right: 15%; 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.butt5 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;
+    align-items: center;
+    font-size: 10px;
+    width: 100%;
+    padding: 2% 3%;
+    text-align: left;
+}
+
+.butt5 .hh {
+    width: auto;
+    min-width: 200px; 
+    white-space: nowrap; 
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+    text-align: center;
+    height: 150px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: none;
+    border: none;
+    font-size: 25px;
+}
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.links a:hover {
+    font-size: 26px;
+    font-weight: larger;
+    cursor: pointer;
+}
+footer h2 {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+footer p {
+    font-size: 15px;
+}
+
+/* ABOUT Page */
+
+.about {
+    height: 500px;
+    width: auto;
+    margin: 3% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+}
+ .about img {
+    height: 400px;
+    width: 450px;
+} 
+.text4 {
+  height: 400px;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  flex-direction: column;
+}
+.text4 h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 500;
+  }
+.text4 p {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+.text5 {
+    height: 30%;
+    width: 70%;
+    margin: 5%;
+}
+.text5 p {
+    font-size: 20px;
+    font-weight: 550;
+}
